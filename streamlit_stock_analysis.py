@@ -11,6 +11,8 @@ import plotly.graph_objects as go
 from finvader import finvader
 import yfinance as yf
 
+import nltk
+nltk.download('vader_lexicon')
 
 #%%Creating streamlit title and short description
 st.title("Stock News Sentiment Analysis")
